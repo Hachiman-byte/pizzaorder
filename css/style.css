@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: roboto;
+	font-family: Prototype;
+	src:url(../font/Roboto-Condensed.ttf);
+	src:url(../font/Prototype.ttf);
+}
+.login{
+	background-image: url(../img/background.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.form{
+	border:3px solid black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0 0 43px 7px #000000;
+	width: 30%;
+	height: 70%;
+	border-radius: 15px;
+	background-color: white;
+}
+img{
+	position: absolute;
+	top: 0%;
+	left:39%;
+	width: 19%;
+	height: 34%;
+	z-index: 10;
+}
+.form .lining1{
+	margin: 0 0;
+	height: 15%;
+	background-color:#1cb72bf0;
+	border-radius: 10px;
+}
+.form .lining2{
+	margin: 137px 0 0 0;
+	height: 3%;
+	background-color: red;
+	border-radius: 15px;
+	z-index: 5;
+}
+.form .inputs{
+	width: 100%;
+}
+.inputs input{
+	width: 70%;
+	height: 40px;
+	font-size: 16px;
+}
+.inputs .username{
+	margin: 82px 0px 9px 56px;
+}
+.inputs .password{
+	margin: 0px 0px 84px 56px;
+}
+.form .buttons{
+	width: 100%;
+} 
+.signupbtn .signup{
+	margin: 0 0 0 8px;
+	position: absolute;
+	top: 72%;
+	left: 39%;
+	height: 50px;
+	width: 21%;
+	border-radius: 40px;
+	font-size: 25px;
+	font-family: Prototype;
+	background-color: #fdc6a69c;
+}
+.buttons button{
+	width: 70%;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 40px;
+	background-color: #fdc6a69c;
+	font-family: Prototype;
+}
+.buttons .submit{
+	position: absolute;
+	top: 69%;
+	left: 15%;
+	margin-bottom: 11px;
+}
+.buttons .signup{
+	position: absolute;
+	top: 81%;
+	left: 15%;
+	height: 9%;
+}
+.signup{
+	position: relative;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.signup .box{
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 5px solid black;
+	width: 80%;
+	height: 84%;
+	border-radius: 10px;
+	display: flex;
+	box-shadow: 0 0 43px 7px #000000;
+	z-index: 4;
+}
+.box .left{
+	width: 100%;
+	
+}
+.left .input{
+	margin: 0 0 18px 0;
+	width: 16%;
+	height: 30px;
+	font-size: 15px;
+}
+.left .check{
+	margin: 16px 0 0 22px;
+}
+.left h1{
+	margin: -5px 0 35px 0;
+	padding: 12px 0 0 0;
+	text-align: center;
+	background-color: #ffa50059;
+	height: 53px;
+	font-family: Ravie;
+	font-size: 43px;
+}
+.left img{
+	position: absolute;
+	top: -14%;
+	left: -12%;
+	width: 200px;
+	height: 200px;
+}
+.left label{
+	margin: 14px 0 0 50px;
+	font-family: Impact;
+}
+.left .term{
+	margin: 0 0 0 38px;
+	font-size: 10px;
+}
+.left .signin{
+	margin: 27px 0px 0px 200px;
+	width: 60%;
+	height: 20%;
+	font-size: 40px;
+	border-radius: 15px;
+	color: white;
+	background: green;
+	font-family: Prototype;
+}
+
+.signup .toplining{
+	width: 100%;
+	height: 10%;
+	background-color: green;
+}
+.signup .bottomlining{
+	position: absolute;
+	top: 95%;
+	width: 100%;
+	height: 5%;
+	background-color: red;
+}
+.home{
+	overflow: hidden;
+	margin: 0;
+	background-image: url(../img/home.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	
+}
+.home .ttitle{
+	position: absolute;
+	top: 11%;
+	left: 24%;
+	font-size: 115px;
+	z-index: 3;
+	color: yellow;
+	font-family: Edwardian Script ITC;
+}
+.home .bbox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 70%;
+	height: 80%;
+	border: 5px solid black;
+	background-color: #ffffffd1;
+	border-radius: 15px;
+	display: flex;
+	box-shadow: 0 0 43px 7px #7c280d;
+}
+.lleft .ttop{
+	background-color: #f9701fd9;
+	height: 120px; 
+	width:100%;
+}
+.bbox .lleft{
+	width: 65%;
+}
+.home .bbox button{
+	margin: 48px 0 0 150px;
+	height: 62px;
+	width: 50%;
+	border-radius: 30px;
+	font-size: 40px;
+	font-family: Prototype;
+	background-color: #9f424257;
+}
+.home .rright{
+	width: 35%;
+	border-left: 3px solid black;
+}
+.home img{
+	position: absolute;
+	top: -1%;
+	left: 6%;
+}
+.rright{
+	background-image: url(../img/poster.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	border: 3px solid black;
+}
